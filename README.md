@@ -8,6 +8,7 @@ The Akan Name Generator is a simple and interactive web application that assigns
 
 Users simply enter their birth date and select their gender, and the application calculates the corresponding day of the week before displaying their Akan name. The project is built using HTML, CSS, and JavaScript, providing a responsive, user-friendly interface and accurate date validation to ensure reliable results.
 
+
 Features
 Enter birth day, month, and year.
 Select gender (Male or Female).
@@ -16,12 +17,14 @@ Calculate the day of the week.
 Display the correct Akan name.
 Responsive and user-friendly interface.
 
+
 Technologies Used
 HTML5
 CSS3
 JavaScript
 Git
 GitHub
+
 
 Project Structure
 akan-name-generator/
@@ -44,6 +47,7 @@ Enter your birth day, month, and year.
 Select your gender.
 Click the Generate Akan Name button.
 View your Akan name and the day of the week you were born.
+
 Live Demo
 
 View the live project here:
