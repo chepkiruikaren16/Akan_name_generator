@@ -160,7 +160,7 @@ button:hover {
 
 .image-box img {
     width: 100%;
-    max-width: 450px;
+    max-width: 400px;
     border-radius: 12px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
