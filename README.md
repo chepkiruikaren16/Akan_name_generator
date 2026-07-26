@@ -11,10 +11,15 @@ Users simply enter their birth date and select their gender, and the application
 
 Features
 Enter birth day, month, and year.
+
 Select gender (Male or Female).
+
 Validate user input.
+
 Calculate the day of the week.
+
 Display the correct Akan name.
+
 Responsive and user-friendly interface.
 
 
