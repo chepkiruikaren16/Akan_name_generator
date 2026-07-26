@@ -5,9 +5,9 @@ Caren Chepkirui
 
 Project Overview
 
-The Akan Name Generator is a simple and interactive web application that assigns users a traditional Akan name based on their date of birth and gender. Akan names originate from Ghanaian culture, where children are traditionally named according to the day of the week on which they are born
+The Akan Name Generator is a simple and interactive web application that assigns users a traditional Akan name based on their date of birth and gender. Akan names originate from Ghanaian culture, where children are traditionally named according to the day of the week on which they are born.
 
-This application allows users to enter their birth date and select their gender. It then calculates the day of the week they were born and displays the corresponding Akan name.
+Users simply enter their birth date and select their gender, and the application calculates the corresponding day of the week before displaying their Akan name. The project is built using HTML, CSS, and JavaScript, providing a responsive, user-friendly interface and accurate date validation to ensure reliable results.
 
 Features
 Enter birth day, month, and year.
