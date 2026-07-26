@@ -1,8 +1,6 @@
 Akan Name Generator
 
-Author
-
-Caren Chepkirui
+Author ; Caren Chepkirui
 
 Project Overview
 
@@ -17,18 +15,21 @@ Validate user input.
 Calculate the day of the week.
 Display the correct Akan name.
 Responsive and user-friendly interface.
+
 Technologies Used
 HTML5
 CSS3
 JavaScript
 Git
 GitHub
+
 Project Structure
 akan-name-generator/
 │── index.html
 │── styles.css
 │── script.js
 └── README.md
+
 Installation and Setup
 
 To run this project locally:
