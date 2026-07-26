@@ -38,11 +38,13 @@ Installation and Setup
 To run this project locally:
 
 Clone the repository:
-git clone git@github.com:chepkiruikaren16/Akan_name_generator.git
+git clone git@github.com:chepkiruikaren16/Akan_name_generator.git.
 Navigate to the project folder:
-cd Akan_name_generator
+cd Akan_name_generator.
 Open the index.html file in your preferred web browser.
+
 Usage
+
 Enter your birth day, month, and year.
 Select your gender.
 Click the Generate Akan Name button.
