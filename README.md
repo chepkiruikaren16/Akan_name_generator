@@ -10,6 +10,7 @@ Users simply enter their birth date and select their gender, and the application
 
 
 Features
+
 Enter birth day, month, and year.
 
 Select gender (Male or Female).
@@ -24,11 +25,17 @@ Responsive and user-friendly interface.
 
 
 Technologies Used
+
 HTML5
+
 CSS3
+
 JavaScript
+
 Git
+
 GitHub
+
 
 
 Project Structure
