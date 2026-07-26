@@ -23,18 +23,17 @@ const femaleNames = [
   "Ama"      // Saturday
 ];
 
-// Function called when the form is submitted
 function generateAkanName(event) {
   event.preventDefault();
 
-  // Get user input
+  // Get input values
   const day = parseInt(document.getElementById("day").value);
   const month = parseInt(document.getElementById("month").value);
   const year = parseInt(document.getElementById("year").value);
 
   const gender = document.querySelector('input[name="gender"]:checked');
 
-  // Validate empty fields
+  // Check if all fields are filled
   if (!day || !month || !year || !gender) {
     alert("Please fill in all fields.");
     return;
@@ -52,10 +51,17 @@ function generateAkanName(event) {
     return;
   }
 
-  // Create date object
+  // Validate year
+  const currentYear = new Date().getFullYear();
+
+  if (year < 1900 || year > currentYear) {
+    alert(`Please enter a valid year between 1900 and ${currentYear}.`);
+    return;
+  }
+
+  // Check if the date actually exists
   const birthDate = new Date(year, month - 1, day);
 
-  // Check if the date is valid
   if (
     birthDate.getFullYear() !== year ||
     birthDate.getMonth() !== month - 1 ||
@@ -65,7 +71,7 @@ function generateAkanName(event) {
     return;
   }
 
-  // Get day of week
+  // Get day of the week (0 = Sunday, 6 = Saturday)
   const dayOfWeek = birthDate.getDay();
 
   const days = [
@@ -78,8 +84,8 @@ function generateAkanName(event) {
     "Saturday"
   ];
 
-  // Assign Akan name
-  let akanName;
+  // Select Akan name
+  let akanName = "";
 
   if (gender.value === "male") {
     akanName = maleNames[dayOfWeek];
@@ -87,10 +93,11 @@ function generateAkanName(event) {
     akanName = femaleNames[dayOfWeek];
   }
 
-  // Display result
+  // Display the result
   document.getElementById("result").innerHTML = `
-    <strong>You were born on ${days[dayOfWeek]}.</strong><br>
-    Your Akan name is <span style="color:green; font-size:22px;">${akanName}</span>.
+    <h3>🎉 Your Result</h3>
+    <p><strong>Birth Date:</strong> ${day}/${month}/${year}</p>
+    <p><strong>Day of the Week:</strong> ${days[dayOfWeek]}</p>
+    <p><strong>Your Akan Name:</strong> <span style="color:green; font-size:24px;">${akanName}</span></p>
   `;
 }
-
