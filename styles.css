@@ -35,6 +35,7 @@ body {
     background: green;
     padding: 25px;
     border-radius: 10px;
+    width: 600px;
 }
 
 .hero-text h1 {
